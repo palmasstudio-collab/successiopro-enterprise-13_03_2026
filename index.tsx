@@ -5,8 +5,8 @@ import { jsPDF } from 'jspdf';
 import './index.css';
 
 // --- CONFIGURAZIONE CLOUD RUN / DRIVE API ---
-const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || "459844148501-9jqtil56lhpc56g2ddh6ol05jrgc3atu.apps.googleusercontent.com"; 
-const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY || "AIzaSyAlNDPa0a4DKEWErU98IgZ61DJgpa3u9Z8"; 
+const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || "459844148501-q51mjbjk1kqj4ku90c7tooh51lcgbs3f.apps.googleusercontent.com"; 
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY || "AIzaSyCI-zsRP85UVOi0DjtiCwWBwQ1djDy741g"; 
 const ROOT_FOLDER_ID = import.meta.env.VITE_ROOT_FOLDER_ID || "1aY3zA-D3_tAhEFLmasuTCz3JURKeviKP"; 
 const SENT_FOLDER_ID = import.meta.env.VITE_SENT_FOLDER_ID || "16_ie96ihd4lJouI8BcrqjjfQS_Rq7Ep0"; 
 const DB_FOLDER_ID = import.meta.env.VITE_DB_FOLDER_ID || "13L8CT9j-_Y-_sT6Xp6CEqQ52E0eZaB_Y"; 
